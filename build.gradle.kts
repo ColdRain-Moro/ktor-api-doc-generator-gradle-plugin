@@ -21,8 +21,8 @@ gradlePlugin {
 }
 
 dependencies {
-    implementation("org.ow2.asm:asm:9.3")
-    implementation("org.ow2.asm:asm-commons:9.3")
+    implementation("com.google.code.gson:gson:2.9.0")
+    implementation("org.javassist:javassist:3.28.0-GA")
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")

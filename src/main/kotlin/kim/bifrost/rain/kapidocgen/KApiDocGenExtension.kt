@@ -11,5 +11,6 @@ import groovy.transform.Canonical
  **/
 @Canonical
 class KApiDocGenExtension {
-    val apiFiles = listOf<String>()
+    // 类别
+    val apis = listOf<Pair<String, String>>()
 }
